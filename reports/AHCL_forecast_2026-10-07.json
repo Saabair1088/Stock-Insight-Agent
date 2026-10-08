@@ -1,0 +1,190 @@
+{
+  "symbol": "AHCL",
+  "yahoo_symbol": "AHCL.KA",
+  "name": "Arif Habib Corporation Limited",
+  "as_of": "2026-10-07",
+  "forecast_for": "2026-11-06",
+  "horizon_sessions": 22,
+  "spot": 15.48,
+  "daily_vol": 0.014988863319183438,
+  "annual_vol": 0.2379408286685852,
+  "prob_up": 0.10396666666666667,
+  "prob_up_total_return": 0.5116833333333334,
+  "dividend_in_window": 1.25,
+  "prob_down": 0.8960333333333333,
+  "expected_price": 14.297548129495597,
+  "expected_return": -0.07638577974834648,
+  "quantiles": {
+    "p5": 12.864281089994872,
+    "p10": 13.149278471345538,
+    "p25": 13.649989707393962,
+    "p50": 14.25661754280585,
+    "p75": 14.893036927790984,
+    "p90": 15.503592659485696,
+    "p95": 15.888831453556657
+  },
+  "var_5": -0.1689786606986885,
+  "cvar_5": -0.1901009735288114,
+  "prob_above": {
+    "PKR 15.75 (mid-point of the 52-week range)": 0.06495,
+    "PKR 16.55 (September high)": 0.012233333333333334,
+    "PKR 17.00 (price a year ago)": 0.004366666666666666,
+    "PKR 19.33 (52-week high)": 0.0,
+    "PKR 15.00 (round-number support)": 0.21685,
+    "PKR 14.90 (September base)": 0.24758333333333332,
+    "PKR 13.15 (book value per share)": 0.8999166666666667,
+    "PKR 12.16 (52-week low)": 0.9946166666666667
+  },
+  "prob_below": {
+    "PKR 15.75 (mid-point of the 52-week range)": 0.93505,
+    "PKR 16.55 (September high)": 0.9877666666666667,
+    "PKR 17.00 (price a year ago)": 0.9956333333333334,
+    "PKR 19.33 (52-week high)": 1.0,
+    "PKR 15.00 (round-number support)": 0.78315,
+    "PKR 14.90 (September base)": 0.7524166666666666,
+    "PKR 13.15 (book value per share)": 0.10008333333333333,
+    "PKR 12.16 (52-week low)": 0.005383333333333334
+  },
+  "regimes": {
+    "martingale": {
+      "quantiles": {
+        "p5": 12.820060986321288,
+        "p10": 13.107906636581657,
+        "p25": 13.613959134527773,
+        "p50": 14.216558840254526,
+        "p75": 14.849882141290852,
+        "p90": 15.462418618882754,
+        "p95": 15.841848386317775
+      },
+      "expected_price": 14.2578826412617,
+      "prob_up": 0.09685,
+      "var_5": -0.17183137057264097,
+      "cvar_5": -0.19251106194060216
+    },
+    "mean_reversion": {
+      "quantiles": {
+        "p5": 12.8635757081863,
+        "p10": 13.150791691691614,
+        "p25": 13.657075079727042,
+        "p50": 14.253519457876418,
+        "p75": 14.895823598513708,
+        "p90": 15.509376364732983,
+        "p95": 15.89601865974715
+      },
+      "expected_price": 14.299856363092728,
+      "prob_up": 0.10525,
+      "var_5": -0.16902039025378301,
+      "cvar_5": -0.1899798290402537
+    },
+    "catalyst": {
+      "quantiles": {
+        "p5": 12.909849850506959,
+        "p10": 13.193464358520096,
+        "p25": 13.699750158435949,
+        "p50": 14.303900953117333,
+        "p75": 14.950163589796905,
+        "p90": 15.57615791115551,
+        "p95": 15.964430059697907
+      },
+      "expected_price": 14.351687508692292,
+      "prob_up": 0.11716666666666667,
+      "var_5": -0.16603651233562933,
+      "cvar_5": -0.18680954542369704
+    }
+  },
+  "path_extremes": {
+    "path_low_p5": 12.7,
+    "path_low_p25": 13.37,
+    "path_low_p50": 13.82,
+    "path_low_p75": 14.27,
+    "path_low_p95": 14.94,
+    "path_high_p5": 15.48,
+    "path_high_p25": 15.52,
+    "path_high_p50": 15.75,
+    "path_high_p75": 16.18,
+    "path_high_p95": 16.76
+  },
+  "robustness": {
+    "distribution": "student-t(4) scaled to the same EWMA volatility",
+    "p10": 12.216216206297215,
+    "p50": 14.242918698738713,
+    "p90": 16.553747016280486,
+    "prob_up": 0.2216,
+    "prob_up_total_return": 0.5038,
+    "dividend_applied": 1.25,
+    "paths": 20000
+  },
+  "scenarios": [
+    {
+      "name": "Bull - PIA news flow plus a firm index",
+      "probability": 0.3,
+      "target_range": [
+        14.89,
+        15.89
+      ],
+      "midpoint": 15.5,
+      "return_pct": 0.0012919896640826156,
+      "triggers": [
+        "Q1 FY27 without a PIA-related loss surprise and the dividend banked",
+        "PIA operational milestone (fleet serviceability, route/US clearance)",
+        "KSE-100 back above 175,000, lifting the securities book",
+        "SBP hold on 26 Oct with a dovish tilt"
+      ]
+    },
+    {
+      "name": "Base - range-bound around the dividend",
+      "probability": 0.45,
+      "target_range": [
+        13.65,
+        14.89
+      ],
+      "midpoint": 14.26,
+      "return_pct": -0.078811369509044,
+      "triggers": [
+        "Q1 FY27 in line, PIA consolidation neutral at the earnings line",
+        "index range-bound 160,000-172,000",
+        "the Rs 1.25 dividend captured, no corporate action",
+        "thin float keeps the tape quiet"
+      ]
+    },
+    {
+      "name": "Bear - PIA losses and a weaker index",
+      "probability": 0.25,
+      "target_range": [
+        12.86,
+        13.65
+      ],
+      "midpoint": 13.15,
+      "return_pct": -0.15051679586563305,
+      "triggers": [
+        "Q1 FY27 shows PIA losses hitting the group line",
+        "KSE-100 below 160,000 on political escalation, forcing more mark-to-market losses",
+        "a capital call or guarantee expansion at PIA Equity",
+        "an associate dividend cut"
+      ]
+    }
+  ],
+  "committee": {
+    "scores": {
+      "market": 4.0,
+      "fundamentals": 6.81,
+      "news": 5.1,
+      "sentiment": 6.5
+    },
+    "rating": "Hold",
+    "action": "Hold",
+    "trade_params": {
+      "entry_zone": [
+        14.29,
+        15.79
+      ],
+      "stop": 13.57,
+      "target_1": 16.55,
+      "target_2": 17.0,
+      "risk_reward": 1.03,
+      "size_pct": 5.5,
+      "size_pct_final": 5.6
+    }
+  },
+  "generated_utc": "2026-10-08T06:43:32Z"
+}

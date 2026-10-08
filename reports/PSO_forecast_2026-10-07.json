@@ -1,0 +1,183 @@
+{
+  "symbol": "PSO",
+  "yahoo_symbol": "PSO.KA",
+  "name": "Pakistan State Oil Company Limited",
+  "as_of": "2026-10-07",
+  "forecast_for": "2026-11-06",
+  "horizon_sessions": 22,
+  "spot": 355.86,
+  "daily_vol": 0.013368765480074714,
+  "annual_vol": 0.2122225727773363,
+  "prob_up": 0.35441666666666666,
+  "prob_up_total_return": 0.5567666666666666,
+  "dividend_in_window": 10.0,
+  "prob_down": 0.6455833333333334,
+  "expected_price": 348.6082851911966,
+  "expected_return": -0.02037799923791206,
+  "quantiles": {
+    "p5": 316.2016947744807,
+    "p10": 323.6039167290152,
+    "p25": 335.5704882486406,
+    "p50": 348.5774891182895,
+    "p75": 361.71095880579605,
+    "p90": 373.5355667058877,
+    "p95": 380.5867339201714
+  },
+  "var_5": -0.11144717324700038,
+  "cvar_5": -0.13461275313262097,
+  "prob_above": {
+    "PKR 320.11 (52-week low)": 0.92615,
+    "PKR 337.07 (2026 base)": 0.7254,
+    "PKR 382.59 (200-day average)": 0.041133333333333334,
+    "PKR 400.00 (Feb-2026 breakdown)": 0.0052833333333333335,
+    "PKR 434.00 (April-2026 high)": 0.0,
+    "PKR 506.75 (52-week high)": 0.0,
+    "PKR 592.43 (book value per share)": 0.0,
+    "PKR 337.00 (2026 base, downside)": 0.7264833333333334,
+    "PKR 320.11 (52-week low, downside)": 0.92615
+  },
+  "prob_below": {
+    "PKR 320.11 (52-week low)": 0.07385,
+    "PKR 337.07 (2026 base)": 0.2746,
+    "PKR 382.59 (200-day average)": 0.9588666666666666,
+    "PKR 400.00 (Feb-2026 breakdown)": 0.9947166666666667,
+    "PKR 434.00 (April-2026 high)": 1.0,
+    "PKR 506.75 (52-week high)": 1.0,
+    "PKR 592.43 (book value per share)": 1.0,
+    "PKR 337.00 (2026 base, downside)": 0.2735166666666667,
+    "PKR 320.11 (52-week low, downside)": 0.07385
+  },
+  "regimes": {
+    "martingale": {
+      "quantiles": {
+        "p5": 314.16286663773803,
+        "p10": 321.50200172947274,
+        "p25": 333.5793564771099,
+        "p50": 346.47071590017043,
+        "p75": 359.2908309247386,
+        "p90": 371.15955009716225,
+        "p95": 378.50040168432645
+      },
+      "expected_price": 346.4354957230852,
+      "prob_up": 0.3119,
+      "var_5": -0.11717995036055184,
+      "cvar_5": -0.14050859473599675
+    },
+    "mean_reversion": {
+      "quantiles": {
+        "p5": 317.130931477873,
+        "p10": 324.31418168619666,
+        "p25": 336.38781842632915,
+        "p50": 349.4711908379311,
+        "p75": 362.4393209065173,
+        "p90": 374.16102875630054,
+        "p95": 381.49313326922817
+      },
+      "expected_price": 349.4033868272185,
+      "prob_up": 0.36838333333333334,
+      "var_5": -0.10883634295529054,
+      "cvar_5": -0.13267329822433654
+    },
+    "catalyst": {
+      "quantiles": {
+        "p5": 318.233563523861,
+        "p10": 325.44364146014016,
+        "p25": 337.7725479584816,
+        "p50": 350.7339465492071,
+        "p75": 363.7996277119176,
+        "p90": 375.50383359139005,
+        "p95": 382.7964681264894
+      },
+      "expected_price": 350.6955733840447,
+      "prob_up": 0.39598333333333335,
+      "var_5": -0.10574117862080745,
+      "cvar_5": -0.12940927262617619
+    }
+  },
+  "path_extremes": {
+    "path_low_p5": 311.37,
+    "path_low_p25": 328.15,
+    "path_low_p50": 338.49,
+    "path_low_p75": 347.55,
+    "path_low_p95": 355.86,
+    "path_high_p5": 355.86,
+    "path_high_p25": 358.09,
+    "path_high_p50": 364.23,
+    "path_high_p75": 372.77,
+    "path_high_p95": 386.42
+  },
+  "robustness": null,
+  "scenarios": [
+    {
+      "name": "Bull - circular-debt progress and a clean Q1",
+      "probability": 0.25,
+      "target_range": [
+        361.71,
+        380.59
+      ],
+      "midpoint": 373.54,
+      "return_pct": 0.04968245939414384,
+      "triggers": [
+        "Q1 FY27 profit back above Rs 8bn with no inventory loss",
+        "circular-debt settlement announced or SNGPL receipts accelerate",
+        "SBP holds at 11.5% with a neutral statement on 26 Oct",
+        "LNG throughput recovers toward 10+ cargoes a quarter"
+      ]
+    },
+    {
+      "name": "Base - grinding sideways above the 2026 base",
+      "probability": 0.5,
+      "target_range": [
+        335.57,
+        361.71
+      ],
+      "midpoint": 348.58,
+      "return_pct": -0.02045748327994168,
+      "triggers": [
+        "Q1 FY27 in the Rs 4-8bn range; volumes still soft but stabilising",
+        "Rs 10 dividend paid, no new surprises",
+        "KSE-100 range-bound 160,000-172,000 as the political standoff drags",
+        "crude flat, so no new inventory shock"
+      ]
+    },
+    {
+      "name": "Bear - political risk plus another weak quarter",
+      "probability": 0.25,
+      "target_range": [
+        316.2,
+        335.57
+      ],
+      "midpoint": 323.6,
+      "return_pct": -0.09065362783116948,
+      "triggers": [
+        "SBP hikes on 26 Oct or the statement re-opens tightening",
+        "Q1 FY27 shows a second consecutive loss / LNG stays at 6 cargoes",
+        "KSE-100 breaks 160,000 on political escalation",
+        "crude falls sharply, forcing another inventory write-down"
+      ]
+    }
+  ],
+  "committee": {
+    "scores": {
+      "market": 6.0,
+      "fundamentals": 5.64,
+      "news": 4.2,
+      "sentiment": 5.5
+    },
+    "rating": "Hold",
+    "action": "Hold",
+    "trade_params": {
+      "entry_zone": [
+        334.82,
+        362.98
+      ],
+      "stop": 321.98,
+      "target_1": 382.59,
+      "target_2": 434.0,
+      "risk_reward": 1.25,
+      "size_pct": 6.2,
+      "size_pct_final": 6.4
+    }
+  },
+  "generated_utc": "2026-10-08T06:43:29Z"
+}

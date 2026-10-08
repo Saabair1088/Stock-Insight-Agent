@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BOP (PSX) - deep research &amp; 30-day forecast - 2026-10-07</title>
+<style>
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin:0; background:#0e1420; color:#e8eefc;
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif; line-height:1.65; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 96px; }
+h1 { font-size: 2rem; line-height:1.25; margin:0 0 8px; }
+h2 { font-size: 1.35rem; margin:44px 0 12px; padding-bottom:8px; border-bottom:1px solid #243049; }
+h3 { font-size: 1.05rem; margin:28px 0 8px; color:#38bdf8; }
+p, li { color:#cbd5e1; }
+a { color:#38bdf8; }
+code { background:#0b1220; padding:2px 6px; border-radius:5px; font-size:.9em; }
+blockquote { margin:20px 0; padding:16px 20px; background:#151d2e; border-left:4px solid #38bdf8;
+  border-radius:0 10px 10px 0; font-size:1.05rem; color:#e8eefc; }
+table { width:100%; border-collapse:collapse; margin:18px 0; font-size:.92rem; }
+th, td { text-align:left; padding:9px 12px; border-bottom:1px solid #243049; vertical-align:top; }
+th { color:#94a3b8; font-weight:600; text-transform:uppercase; letter-spacing:.04em; font-size:.72rem; }
+tbody tr:hover { background:#131b2b; }
+hr { border:0; border-top:1px solid #243049; margin:36px 0; }
+img { width:100%; margin:20px 0; }
+footer { margin-top:64px; color:#94a3b8; font-size:.85rem; }
+.badges { display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 6px; }
+.badge { background:#151d2e; border:1px solid #243049; border-radius:999px; padding:6px 14px;
+  font-size:.82rem; color:#94a3b8; }
+.badge b { color:#e8eefc; }
+</style></head>
+<body><div class="wrap">
+<div class="badges"><span class="badge">Spot <b>PKR 29.72</b></span><span class="badge">P(up) in 21 sessions <b>54%</b></span><span class="badge">Median <b>PKR 29.99</b></span><span class="badge">80% band <b>27.06 - 33.81</b></span><span class="badge">Ann. vol <b>32.8%</b></span><span class="badge">Horizon <b>2026-11-06</b></span></div>
+<h1>The Bank of Punjab (PSX: BOP) - deep research and 30-day movement forecast</h1>
+<p><strong>Forecast date:</strong> 2026-10-07 · <strong>Last settled close:</strong> PKR 29.72 (2026-10-06) ·</p>
+<p><strong>Forecast horizon:</strong> 2026-10-07 to 2026-11-06 (21 trading sessions) ·</p>
+<p><strong>Engine:</strong> TradingAgents multi-agent pipeline (vendored at <code>TradingAgents/</code>) with the PSX</p>
+<p>data and forecasting layer in <code>psx/</code>.</p>
+<hr/>
+<h2>1. The call</h2>
+<blockquote><strong>30-day movement prediction: modestly higher, wide band.</strong> Probability that BOP closes above</blockquote>
+<blockquote>PKR 29.72 on 2026-11-06: <strong>54%</strong>. Median terminal price</blockquote>
+<blockquote><strong>PKR 29.99</strong></blockquote>
+<blockquote>(+0.9%), expected value <strong>PKR 30.25</strong></blockquote>
+<blockquote>(+1.8%). The 80% interval is PKR 27.06 to</blockquote>
+<blockquote>PKR 33.81; the interquartile band is PKR 28.41 -</blockquote>
+<blockquote>PKR 31.80. Committee rating: <strong>Hold</strong>, sized at</blockquote>
+<blockquote>4.1% of a diversified book with a stop at</blockquote>
+<blockquote>PKR 27.31.</blockquote>
+<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>Spot (last settled close, 2026-10-06)</td><td>PKR 29.72</td></tr>
+<tr><td>Median forecast (2026-11-06)</td><td>PKR 29.99</td></tr>
+<tr><td>Expected value</td><td>PKR 30.25</td></tr>
+<tr><td>Probability of a higher close</td><td>54%</td></tr>
+<tr><td>80% interval</td><td>PKR 27.06 - 33.81</td></tr>
+<tr><td>5% VaR / CVaR over the window</td><td>-11.6% / -14.6%</td></tr>
+<tr><td>P(touch the PKR 38.20 GoPb issue floor)</td><td>0.9%</td></tr>
+<tr><td>Daily volatility (EWMA) / annualised</td><td>2.06% / 32.8%</td></tr>
+</tbody></table>
+<p><strong>Scenario book</strong></p>
+<table><thead><tr><th>Scenario</th><th>Probability</th><th>Price range</th><th>Midpoint</th><th>Return</th></tr></thead><tbody>
+<tr><td>Bull</td><td>27%</td><td>PKR 32.50 - 36.50</td><td>PKR 34.40</td><td>+15.7%</td></tr>
+<tr><td>Base</td><td>46%</td><td>PKR 28.00 - 32.50</td><td>PKR 30.40</td><td>+2.3%</td></tr>
+<tr><td>Bear</td><td>27%</td><td>PKR 24.00 - 28.00</td><td>PKR 26.60</td><td>-10.5%</td></tr>
+</tbody></table>
+<p>Probability-weighted value: <strong>PKR 30.45</strong> (+2.5%). The Monte-Carlo mean</p>
+<p>(PKR 30.25) and the scenario book (PKR 30.45) agree within ~1%, which is a</p>
+<p>useful cross-check: two independent constructions of the same view land in the same place.</p>
+<p><strong>Why not a stronger call?</strong> Because the two dominant forces point in opposite directions. Value</p>
+<p>and capital structure are exceptionally supportive - the controlling shareholder is contracted to</p>
+<p>buy up to Rs 30bn of new equity at no less than PKR 38.20, 29% above spot and</p>
+<p>20% above audited book, while the stock trades at 0.93x book on a ~10% dividend</p>
+<p>yield. Macro and politics are not: inflation at 10.26% has the money market pricing another hike</p>
+<p>on 26 October, and the government-PTI standoff is driving a 12%-off-the-high index in which banks</p>
+<p>are ~25% of the weight. A one-month horizon is short enough that the second force can dominate.</p>
+<hr/>
+<h2>2. Where the price is now</h2>
+<p>![price](chart_price.svg)</p>
+<p><em>History from the validated daily snapshot (<code>data/</code>), fan from 60,000 Monte-Carlo paths.</em></p>
+<ul>
+<li><strong>Trend:</strong> below SMA20 (30.73), SMA50 (32.80), SMA100</li>
+</ul>
+<p>  (33.72) and SMA200 (34.02); RSI(14) 36;</p>
+<p>  MACD histogram -0.046 (negative, flattening).</p>
+<ul>
+<li><strong>Drawdown:</strong> -31.0% below the 5 January 2026 intraday high of</li>
+</ul>
+<p>  44.17; max two-year drawdown -44%.</p>
+<ul>
+<li><strong>Returns:</strong> 1 month -14.7%, 3 months -17.4%, 12 months -7.3%,</li>
+</ul>
+<p>  2 years +472%.</p>
+<ul>
+<li><strong>Risk:</strong> realised vol 34% (20d) / 51%</li>
+</ul>
+<p>  (250d) annualised; 1-day historical VaR(95) 4.3%; ATR(14)</p>
+<p>  PKR 0.83. Returns are fat-tailed (excess kurtosis</p>
+<p>  +2.3) and positively skewed</p>
+<p>  (+0.51).</p>
+<ul>
+<li><strong>Microstructure:</strong> the 5 Oct down day traded 7.3mn shares versus a 19.5mn three-month average,</li>
+</ul>
+<p>  and 6 Oct reversed from 28.55 to close 3.2% off its low - supply is thinning at support.</p>
+<ul>
+<li><strong>Key levels:</strong> support 28.55 / 27.00-28.00 (May-June base); resistance 30.90-31.75 (September</li>
+</ul>
+<p>  range top), 33.70-34.46 (200-day average and July swing), then 38.20 (the issue floor).</p>
+<hr/>
+<h2>3. Forecast distribution</h2>
+<p>![distribution](chart_dist.svg)</p>
+<table><thead><tr><th>Threshold</th><th>Model probability of being at or above on 2026-11-06</th></tr></thead><tbody>
+<tr><td>PKR 33.70 (200-DMA / prior support turned resistance)</td><td>10.6%</td></tr>
+<tr><td>PKR 34.46 (Jul-2026 swing close)</td><td>7.2%</td></tr>
+<tr><td>PKR 36.40 (GoPb issue price net of the 5% premium)</td><td>2.5%</td></tr>
+<tr><td>PKR 38.20 (GoPb equity-injection floor)</td><td>0.9%</td></tr>
+<tr><td>PKR 44.17 (all-time high, Jan-2026)</td><td>0.0%</td></tr>
+<tr><td>PKR 27.00 (May/Jun-2026 base)</td><td>90.5%</td></tr>
+<tr><td>PKR 24.26 (52-week low area)</td><td>99.5%</td></tr>
+</tbody></table>
+<p>The distribution is generated by block-bootstrapping 250 sessions of the stock&#x27;s own returns</p>
+<p>(blocks of five sessions preserve volatility clustering), scaling them to today&#x27;s EWMA volatility</p>
+<p>of 2.06% per day, and mixing three drift regimes: a zero-drift martingale</p>
+<p>(weight 35%), a weak pull toward the 200-day average (50%) and a small catalyst overlay (15%).</p>
+<p>The martingale leg alone puts P(up) at 48%; the mixture lands</p>
+<p>at 54%. Anyone who believes short-horizon drift is unknowable should read the</p>
+<p>martingale number as the honest floor - even then the downside is bounded by a support shelf that</p>
+<p>the state-owned anchor shareholder has a contractual incentive to defend.</p>
+<hr/>
+<h2>4. Deep research: the evidence base</h2>
+<h3>4.1 Company-specific</h3>
+<table><thead><tr><th>Fact</th><th>Source</th><th>Date</th></tr></thead><tbody>
+<tr><td>Record H1-2026: operating profit Rs 22.5bn (+67%), PBT Rs 20.5bn (+35%), PAT Rs 9.5bn (+40%)</td><td>BOP press release via Pro Pakistani / Dawn / The Nation / Khyber News, 2026-08-28/31</td><td>2026-08-28</td></tr>
+<tr><td>Quarterly PAT: Q2-2026 Rs 4.756bn, 5% below Q2-2025 (Rs 5.007bn) as Q1 carried H1 growth</td><td>PSX company financials (dps.psx.com.pk) via the quarterly PAT series</td><td>2026-08-28</td></tr>
+<tr><td>PACRA upgraded BOP to AAA (long term) with A1+ short term, stable outlook, on 1 Jul 2026</td><td>PACRA via Profit/Tribune/Mettis Global, 2026-07-01</td><td>2026-07-01</td></tr>
+<tr><td>Shareholders approved up to Rs 30bn of equity from the Government of Punjab at a PKR 38.20 floor</td><td>BOP EOGM disclosure; Daily Times / The Friday Times / Pro Pakistani, 2026-09-08/09</td><td>2026-09-08</td></tr>
+<tr><td>The equity plan was preceded by unusual trading: +9% on ~158mn shares in the three sessions to 7 Aug</td><td>Bloom Pakistan / PSX disclosures, 2026-08-10</td><td>2026-08-10</td></tr>
+<tr><td>Interim dividend of 16% declared with H1-2026, dispatched 24 Sep 2026; ex-date 10 Sep 2026</td><td>PSX company announcements (dps.psx.com.pk); Profit/Cybernet; stockanalysis.com</td><td>2026-09-24</td></tr>
+<tr><td>Largest SME, agriculture, low-cost housing and women-entrepreneurship lender; largest card issuer</td><td>BOP release; Business Recorder trends; Pro Pakistani 2026-04-14</td><td>2026-08-06</td></tr>
+<tr><td>Majority government ownership is the structural risk: 57.47% Punjab government stake</td><td>koalagains.com stock analysis; BOP EOGM materials</td><td>2026-09-08</td></tr>
+</tbody></table>
+<h3>4.2 Sector</h3>
+<table><thead><tr><th>Fact</th><th>Source</th><th>Date</th></tr></thead><tbody>
+<tr><td>System deposits Rs 39.24trn (+13.9% y/y) in Aug 2026; advances Rs 13.61trn (+10.7%)</td><td>Topline Securities via Pro Pakistani 2026-10-05 / 24NewsHD 2026-10-06</td><td>2026-10-05</td></tr>
+<tr><td>System ADR stuck at 34.7% (35.7% a year earlier) - lending is not keeping pace</td><td>Topline Securities; BOP H1-2026 results release</td><td>2026-10-05</td></tr>
+<tr><td>Bank corporate tax steps down to 42% for TY2027; 10% super tax above Rs 150mn remains</td><td>The News / Express Tribune (Dec 2024); pkrevenue.com 2026-07-19; PwC Finance Bill 2026 memo</td><td>2026-07-19</td></tr>
+</tbody></table>
+<h3>4.3 Macro</h3>
+<table><thead><tr><th>Fact</th><th>Source</th><th>Date</th></tr></thead><tbody>
+<tr><td>SBP policy rate 11.5%, on hold since the 100bp hike of 27 Apr 2026</td><td>pakera.pk SBP calendar; Trading Economics; SBP MPC statements</td><td>2026-10-05</td></tr>
+<tr><td>CPI 10.26% y/y in Sep 2026 (Aug 11.1%), still above the 5-7% target band</td><td>pakera.pk; archyde.com (citing Dawn), 2026-10-04</td><td>2026-10-05</td></tr>
+<tr><td>Money market prices a hike: 1-year T-bill cut-off up to 12.49%, 12M KIBOR 12.68%</td><td>pakera.pk; Tresmark commentary via archyde.com</td><td>2026-10-05</td></tr>
+<tr><td>SBP reserves $21.44bn (25 Sep 2026), total liquid $26.77bn, import cover &gt;3 months</td><td>Business Recorder, 2026-10-01; Eurasia Review, 2026-09-18</td><td>2026-10-01</td></tr>
+<tr><td>IMF projects FY27 GDP growth of 3.5% against the government&#x27;s 4% target</td><td>Business Recorder editorial, 2026-07-16; BOP FX rate sheet, 2026-10-02</td><td>2026-07-16</td></tr>
+<tr><td>Government-PTI standoff and the long march are the live domestic risk factor</td><td>The Express Tribune, 2026-10-06; pakera.pk, 2026-10-05</td><td>2026-10-06</td></tr>
+</tbody></table>
+<h3>4.4 Scorecard</h3>
+<table><thead><tr><th>Dimension</th><th>Score</th><th>Comment</th></tr></thead><tbody>
+<tr><td>Valuation</td><td>8/10</td><td>0.93x audited book (BVPS 32.77 at 2Q-2026), ~5.3x TTM / ~6x forward earnings, ~10.4% dividend yield versus a 44.60 consensus target and a 38.20 contracted issue price.</td></tr>
+<tr><td>Earnings Momentum</td><td>7/10</td><td>H1-2026 PAT +40% y/y and operating profit +67%, but Q2-2026 was 5% BELOW Q2-2025 - the growth is front-loaded and the Q3 comparison is harder.</td></tr>
+<tr><td>Balance Sheet</td><td>6/10</td><td>CAR 13.69% is adequate but the thinnest of the large banks (Tier-1 Rs 99.9bn against Rs 2,952bn of assets); the injection fixes that, subject to approvals.</td></tr>
+<tr><td>Franchise</td><td>7/10</td><td>PACRA AAA, policy-driven priority-sector dominance, ADR ~44-46% versus 34.7% system, largest card issuer - but concentrated in one province.</td></tr>
+<tr><td>Macro Tailwind</td><td>5/10</td><td>Reserves and rating upgrades are supportive; inflation at 10.3% and a possible hike are not.</td></tr>
+<tr><td>Technical</td><td>4/10</td><td>Downtrend below all moving averages, but oversold, with the last two sessions showing accumulation-style reversals.</td></tr>
+<tr><td>Sentiment</td><td>5/10</td><td>Consensus Strong Buy with a 44.60 target contrasts with a market punished by political risk; flow data show only token foreign selling.</td></tr>
+<tr><td>Governance</td><td>5/10</td><td>AAA-rated and professionally run, yet 57.47% government-owned with directed-lending exposure - and the +9% run-up before the injection was disclosed.</td></tr>
+</tbody></table>
+<hr/>
+<h2>5. The multi-agent committee</h2>
+<p>The pipeline below mirrors the vendored TradingAgents graph (analysts -&gt; bull/bear debate -&gt;</p>
+<p>research manager -&gt; trader -&gt; risk debate -&gt; portfolio manager). The deterministic engine applies</p>
+<p>explicit rules to the same data tools and emits these artifacts; to execute the <em>actual</em> LangGraph</p>
+<p>pipeline instead, run <code>python scripts/run_bop_assessment.py --framework</code> (deterministic stand-in</p>
+<p>model when no key is present) or <code>... --framework --mode live</code> with an LLM API key set. The</p>
+<p>framework&#x27;s own report tree is written to <code>reports/framework/BOP_2026-10-07/</code>.</p>
+<h3>Analyst reports</h3>
+<h3>Market Analyst - technical read</h3>
+<p><strong>Price structure.</strong> Last settled close <strong>PKR 29.72</strong> (2026-10-06). The stock is</p>
+<p><strong>-31.0% below</strong> the January 2026 all-time intraday high of 44.17 and has lost</p>
+<p>-14.7% over the last month. It trades below every major</p>
+<p>average: SMA20 30.73, SMA50 32.80, SMA100 33.72,</p>
+<p>SMA200 34.02 - a clean bearish alignment.</p>
+<p><strong>Momentum.</strong> RSI(14) 35.9 (weak, not yet capitulated); MACD -0.957 versus</p>
+<p>signal -0.912, histogram -0.046 (negative but flattening -</p>
+<p>the rate of deterioration is slowing).</p>
+<p><strong>Volatility &amp; risk.</strong> Realised vol 34% (20d) and 51% (250d)</p>
+<p>annualised; ATR(14) PKR 0.83 (~2.8% of price); Bollinger %B</p>
+<p>0.25 with the lower band at 28.69. One-day historical VaR(95)</p>
+<p>4.3%, CVaR(95) 6.9%.</p>
+<p><strong>Levels.</strong> Recent swing lows [30.01, 31.65, 32.32] and the 2026-10-06 low of 28.55 form</p>
+<p>the support shelf; the 200-day average at 34.02 and the July swing close of 34.46 are</p>
+<p>the first real resistance, then the GoPb issue floor at 38.20.</p>
+<p><strong>Volume.</strong> The 5 Oct down day traded 7.3mn shares against a three-month average near</p>
+<p>19.5mn, and 6 Oct closed 4.1% off its low on 8.5mn shares -</p>
+<p>supply is drying up into support rather than accelerating.</p>
+<h3>Fundamentals Analyst - valuation and earnings</h3>
+<p><strong>Valuation.</strong> At PKR 29.72: market cap ~PKR 97bn,</p>
+<p><strong>0.93x</strong> the audited break-up value of PKR 31.83 and <strong>5.3x</strong> trailing EPS of 5.59</p>
+<p>(~4.5x forward on consensus). A ~Rs 3.00 trailing dividend is a <strong>10.1%</strong></p>
+<p>yield. The contracted Government of Punjab issue price of <strong>PKR 38.20</strong> is 29%</p>
+<p>above the market - i.e. the largest shareholder is buying new equity at a premium to book.</p>
+<p><strong>Earnings power.</strong> H1-2026 was the best half in the bank&#x27;s history: operating profit</p>
+<p>Rs 22.5bn (+67% y/y), PBT Rs 20.5bn (+35%), PAT Rs 9.5bn (+40%), NII Rs 46.1bn (+29%) and</p>
+<p>non-markup income ex-gains Rs 11.9bn (+61%). Cost-to-income improved 2.40pp. Deposits reached</p>
+<p>Rs 2,154bn with current accounts +20% y/y; gross advances grew 28% to Rs 996bn, implying an</p>
+<p>ADR near 46% against a system average of 34.7%.</p>
+<p><strong>Capital.</strong> CAR 13.69% and a 3.65% leverage ratio clear the regulatory floor but leave BOP the</p>
+<p>thinnest large bank in Pakistan (Tier-1 PKR 99.9bn). The approved Rs 30bn injection, at a floor</p>
+<p>of PKR 38.20, would lift book value per share from 31.83 to roughly 33.1 before any deployment</p>
+<ul>
+<li><strong>+4% of book for existing holders</strong> - at the cost of up to ~24% more shares.</li>
+</ul>
+<p><strong>Quality.</strong> Government of Punjab schemes are 18% of the portfolio but only 3% of NPLs, with</p>
+<p>97-100% recovery; the group NPL ratio of ~8% still trails private peers by a wide margin, and</p>
+<p>PACRA&#x27;s AAA (A1+, stable) upgrade on 1 Jul 2026 recognises the improved franchise.</p>
+<h3>News Analyst - macro and event tape</h3>
+<p><strong>What is driving the tape.</strong> Government-PTI standoff and the long march are the live domestic risk factor -&gt; The KSE-100 fell 2,288 points (-1.36%) on 5 Oct 2026 amid political noise and speculation about constitutional measures, with oil at $101-103/bbl and renewed Strait of Hormuz / Red Sea tension adding to risk aversion.</p>
+<p><strong>The event calendar inside the forecast window.</strong></p>
+<table><thead><tr><th>Date</th><th>Event</th><th>Why it matters</th></tr></thead><tbody>
+<tr><td>2026-10-26</td><td>BOP Q3-2026 results AND the SBP MPC decision land on the SAME DAY - a double event inside the forecast window</td><td></td></tr>
+<tr><td>2026-11-06</td><td>30-day forecast horizon end</td><td></td></tr>
+<tr><td>2026-12-31</td><td>Deadline for the first GoPb tranche (Rs 15-20bn of shares)</td><td></td></tr>
+</tbody></table>
+<p><strong>Score split.</strong> Macro tape 3.5/10, company newsflow 7.4/10</p>
+<p>(equal-weighted) - the tape is hostile while the company flow is strongly positive.</p>
+<p><strong>Macro balance.</strong> Supportive: SBP reserves $21.44bn (25 Sep 2026), total liquid $26.77bn, import cover &gt;3 months.</p>
+<p>Hostile: CPI 10.26% y/y in Sep 2026 (Aug 11.1%), still above the 5-7% target band - Sep CPI rose 1.27% m/m with housing/electricity/gas +3.05%. The Jul-Sep average was 10.20%. FY27 inflation is projected near 7.5% at $80 oil and 8.2% at $100 oil.</p>
+<p>The policy rate has been on hold at 11.5% since the</p>
+<p>100bp hike in April 2026, and the money market is pricing a further hike (1-year T-bill cut-off</p>
+<p>12.49%, 12M KIBOR 12.68%), so the 26 Oct MPC is a two-sided risk rather than a free option.</p>
+<p><strong>Company newsflow.</strong> The GoPb equity injection (approved 8 Sep 2026), PACRA&#x27;s AAA upgrade</p>
+<p>(1 Jul 2026), the highest-ever 16% interim dividend (dispatched 24 Sep 2026) and the Bahrain</p>
+<p>wholesale-banking unit are all recent positives. Two caveats: Q2-2026 PAT (Rs 4.756bn) was 5%</p>
+<p>BELOW Q2-2025, so the &quot;record H1&quot; is front-loaded, and the equity plan was preceded by a</p>
+<p>+9%/158mn-share run-up before it was disclosed - a governance flag. Set against all of this:</p>
+<p>the sector-wide bank sell-off on 5 Oct, political noise and oil at $101-103/bbl.</p>
+<h3>Sentiment Analyst - positioning and flows</h3>
+<p>Sell-side consensus is a <strong>Strong Buy</strong> (2 analysts) with a 12-month target of <strong>Rs 44.60</strong>,</p>
+<p>about 50% above spot - the widest gap between street targets and price seen</p>
+<p>in this name for some time.</p>
+<p>Market-structure evidence is more mixed. The stock is -14.7% over one month and sits</p>
+<p>-31% below its high, while 20-day average volume</p>
+<p>(8.9mn shares) is below the three-month average (18.6mn) - typical of</p>
+<p>a stock being sold into weakness by index/momentum money rather than abandoned by long-term</p>
+<p>holders. Reported foreign selling on 5 Oct was only Rs 45mn, and BOP was still among the</p>
+<p>bourse&#x27;s volume leaders, so domestic retail interest has not disappeared.</p>
+<p>Beta is reported between 1.19 (5-year) and 2.17 (1-year): the one-year figure tells you the</p>
+<p>2025 re-rating was idiosyncratic, not simply index beta.</p>
+<h3>Research debate</h3>
+<p><strong>Bull case.</strong> The market is pricing BOP as if the 2025 re-rating was a mistake, but the</p>
+<p>fundamentals say otherwise:</p>
+<ol>
+<li><strong>The largest shareholder is contracted to buy at PKR 38.20</strong> - the higher of a KPMG</li>
+</ol>
+<p>   base-case value or market price plus 5%, and ~20% above audited book. That is a</p>
+<p>   29% premium to spot, and it lifts book value for holders who do not</p>
+<p>   subscribe.</p>
+<ol>
+<li><strong>Earnings are compounding, not stalling.</strong> H1-2026 PAT +40% y/y on operating profit +67%;</li>
+</ol>
+<p>   advances +28% with an ADR near 46% versus a 34.7% system average, so BOP is the one large</p>
+<p>   bank actually lending.</p>
+<ol>
+<li><strong>The stock is cheap on every anchor</strong>: 0.93x book, 5.3x trailing</li>
+</ol>
+<p>   earnings, ~10.1% dividend yield, versus a 44.60 consensus target.</p>
+<ol>
+<li><strong>Technicals are washing out, not breaking down.</strong> RSI 36, 6 Oct closed</li>
+</ol>
+<p>   4.1% off its low, and volume on the decline is <em>below</em> the</p>
+<p>   three-month average - the profile of a completed retracement inside a longer uptrend that</p>
+<p>   ran from ~5 to 44.17 over two years.</p>
+<ol>
+<li><strong>AAA plus $21.4bn of SBP reserves plus a 3-month import cover</strong> is a macro backdrop no</li>
+</ol>
+<p>   Pakistani bank had in previous downcycles.</p>
+<p><strong>Bear case.</strong> The bear does not dispute the franchise; it disputes the timing and the price</p>
+<p>paid for optionality:</p>
+<ol>
+<li><strong>A 31% drawdown is not &quot;cheap&quot;, it is a de-rating in progress.</strong> Every moving average from</li>
+</ol>
+<p>   the 20-day (30.73) to the 200-day (34.02) slopes down and sits above price.</p>
+<ol>
+<li><strong>The rate cycle turned against the sector&#x27;s safest trade.</strong> Inflation at 10.26% has the</li>
+</ol>
+<p>   money market pricing a hike (1-year T-bill 12.49%). Higher-for-longer cuts the value of</p>
+<p>   banks&#x27; government-securities books and raises the odds of a market-wide de-rating; the</p>
+<p>   KSE-100 is already 12% off its high.</p>
+<ol>
+<li><strong>Politics is now the dominant factor.</strong> A government-PTI standoff in which banks are ~25%</li>
+</ol>
+<p>   of the index means stock-specific strength can be overridden for weeks at a time.</p>
+<ol>
+<li><strong>The capital raise cuts both ways.</strong> Up to 24% more shares means mechanical EPS/ROE</li>
+</ol>
+<p>   dilution until deployment; the tranche schedule (Rs 15-20bn by 31 Dec 2026) is an execution</p>
+<p>   risk, and the market has repeatedly punished PSX banks for capital events.</p>
+<ol>
+<li><strong>Asset quality is not fixed.</strong> An ~8% NPL ratio against sub-4% at the best private peers,</li>
+</ol>
+<p>   with the sector&#x27;s ADR stuck at 34.7% and a high-rate environment squeezing marginal</p>
+<p>   borrowers.</p>
+<h3>Research manager</h3>
+<h3>Research Manager - investment plan</h3>
+<p><strong>Composite score: 5.51/10</strong> (market 3.5 weighted 20%, fundamentals</p>
+<p>7.8 30%, news 5.5 25%, sentiment 4.4 25%).</p>
+<p>The debate resolves in favour of the bull on <em>value and capital structure</em>, and of the bear on</p>
+<p><em>timing and macro</em>. The decisive asymmetry is contractual rather than sentiment-driven: a</p>
+<p>government subscribed to buy up to Rs 30bn of new equity at no less than PKR 38.20 while the</p>
+<p>market trades near 29.72. That does not stop the price from falling in the</p>
+<p>next month - the stock can trade below the issue price, and did for all of September - but it</p>
+<p>does anchor the medium-term value of the franchise.</p>
+<p>Over the next 21 sessions the distribution is close to symmetric</p>
+<p>with a modest upward tilt: <strong>P(price higher) = 54%</strong>, median</p>
+<p>PKR 29.99, 80% interval</p>
+<p>PKR 27.06-33.81. With that</p>
+<p>risk/reward the correct posture is to <strong>accumulate on weakness rather than chase strength</strong>,</p>
+<p>which is a &quot;Hold&quot; at the portfolio level.</p>
+<h3>Trader</h3>
+<h3>Trader - transaction proposal</h3>
+<p><strong>Action: Hold (scaled accumulation).</strong></p>
+<table><thead><tr><th>Parameter</th><th>Level</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>Entry zone</td><td>PKR 28.69 - 30.31</td><td>the 28.55-30.00 shelf, i.e. the 6 Oct reversal low up to a 2% band</td></tr>
+<tr><td>Stop</td><td>PKR 27.31</td><td>1.5 x ATR(14) below the shelf; a weekly close below it invalidates the basing thesis</td></tr>
+<tr><td>Target 1</td><td>PKR 34.02</td><td>200-day average / July swing region</td></tr>
+<tr><td>Target 2</td><td>PKR 38.20</td><td>the contracted GoPb issue price</td></tr>
+<tr><td>Risk/reward</td><td>2.1 : 1</td><td>on a first-target basis</td></tr>
+<tr><td>Position size</td><td>4.0% of the book</td><td>volatility-targeted: a ~33% annualised vol name gets a modest weight</td></tr>
+</tbody></table>
+<p><strong>Execution notes.</strong> Buy in thirds: one third at market, one third on a retest of the 28.50-29.00</p>
+<p>zone, one third only if the 26 Oct Q3 print and the MPC are both non-hostile. Do not add above</p>
+<p>PKR 33 before a weekly close above the 50-day average; that is where the September supply</p>
+<p>overhang sits. The 38.20 anchor is a <em>medium-term</em> magnet, not a 30-day target: model probability</p>
+<p>of touching it within the horizon is 0.9%.</p>
+<h3>Risk debate</h3>
+<p><strong>Aggressive analyst.</strong> A 33% vol stock with a 54%</p>
+<p>probability of being higher in a month is a buy, not a watch. The trade is defined by a hard</p>
+<p>level (28.55) that has already been defended twice, the stop is only</p>
+<p>4.8%</p>
+<p>below entry, and the upside to the contracted issue price is</p>
+<p>29%. Push the position to the top of the size band and use the</p>
+<p>26 Oct print as the trigger for the second tranche.</p>
+<p><strong>Neutral analyst.</strong> The expected return here is small (+1.8%</p>
+<p>over the window) relative to a 5% one-day VaR of -11.6% at the horizon.</p>
+<p>That argues for the middle of the size band, staged entries and no leverage. The single largest</p>
+<p>avoidable risk is event clustering: the Q3 results and the policy decision land on the same day,</p>
+<p>so both tails are fatter than the historical distribution implies.</p>
+<p><strong>Conservative analyst.</strong> Two unacceptable risks are live: (1) a hike on 26 Oct</p>
+<p>would hit both the index and, via mark-to-market on the investment book, bank earnings power;</p>
+<p>(2) a 30% drawdown in the last six months proves the position can move against you quickly</p>
+<p>(max two-year drawdown -44%). Cap the name at half the</p>
+<p>vol-targeted size until the capital tranche is actually issued - the Rs 15-20bn tranche by</p>
+<p>31 Dec 2026 is the catalyst that converts the thesis from narrative to fact.</p>
+<p>The risk team converged on a <strong>4.1% position</strong> (aggressive</p>
+<p>6.0% / neutral 4.0% /</p>
+<p>conservative 2.0%, weighted 30/45/25). Everyone agreed</p>
+<p>on three non-negotiables: no averaging down below PKR 27.31; no more than a</p>
+<p>third of the position before the 26 Oct events; and a hard review if the KSE-100 closes below</p>
+<p>160,000, because that would make the political channel, not the fundamentals, the binding</p>
+<p>constraint.</p>
+<h3>Portfolio manager</h3>
+<h2>Portfolio Manager - final decision</h2>
+<p><strong>HOLD</strong> (position size 4.1% of the book, built in thirds, stop</p>
+<p>PKR 27.31).</p>
+<p><strong>The one-paragraph version.</strong> The Bank of Punjab is a genuinely improved franchise - record</p>
+<p>H1-2026 earnings, an AAA rating, a 46% ADR in a 34.7% system, and a government committed to</p>
+<p>injecting up to Rs 30bn of new equity at no less than PKR 38.20 - trading at ~0.93x audited book</p>
+<p>after a 31% drawdown that has more to do with politics and the rate cycle than with the bank.</p>
+<p>Over the next 21 sessions we expect the price to base rather than</p>
+<p>trend: median PKR 29.99, 54% chance of</p>
+<p>finishing higher, with an 80% interval of PKR 27.06 to</p>
+<p>33.81. That is a distribution you accumulate into, not one you</p>
+<p>pay up for.</p>
+<p><strong>Explicit 30-day call (forecast made 2026-10-07, horizon 2026-11-06):</strong></p>
+<ul>
+<li>Direction: <strong>modestly higher</strong> - P(up) 54% versus</li>
+</ul>
+<p>  P(down) 46%; expected price</p>
+<p>  PKR 30.25 (+1.8%).</p>
+<ul>
+<li>Central band: <strong>PKR 28.41 - 31.80</strong></li>
+</ul>
+<p>  (interquartile), full 80% interval PKR 27.06 -</p>
+<p>  33.81.</p>
+<ul>
+<li>Scenario book: bull 27% (midpoint PKR</li>
+</ul>
+<p>  34.40), base 46% (PKR</p>
+<p>  30.40), bear 27% (PKR</p>
+<p>  26.60); probability-weighted value PKR</p>
+<p>  30.45.</p>
+<ul>
+<li>Model probability of trading at or above the PKR 38.20 issue price inside the window:</li>
+</ul>
+<p>  0.9%. This is a</p>
+<p>  medium-term anchor, not a one-month target.</p>
+<p><strong>What would change the call.</strong> Upgrade to a full Buy on a weekly close above the 50-day average</p>
+<p>combined with a Q3 print that shows provisions contained. Cut the position on a close below</p>
+<p>PKR 27.31 or if the 26 Oct policy statement signals the start of a new</p>
+<p>tightening cycle <em>and</em> the KSE-100 loses 160,000.</p>
+<p>*This is a research output produced by an automated multi-agent pipeline, not investment advice.</p>
+<p>Position sizes assume a diversified book and a 12% volatility budget.*</p>
+<hr/>
+<h2>6. Risk register</h2>
+<table><thead><tr><th>Risk</th><th>Why it matters</th><th>Severity</th></tr></thead><tbody>
+<tr><td>Double event on 26 Oct</td><td>Q3 results and the MPC land together: a hawkish hold/hike and a soft Q3 (the Q2-2025 comparison base is high) could compound in one session.</td><td>high</td></tr>
+<tr><td>Hawkish SBP surprise</td><td>1-year T-bill cut-offs and KIBOR already price a hike; a 100bp move would pressure the index and, near-term, bank multiples.</td><td>high</td></tr>
+<tr><td>Political escalation</td><td>The government-PTI standoff or constitutional manoeuvring can dominate stock-specific factors in a market where banks are ~25% of the index.</td><td>high</td></tr>
+<tr><td>Asset quality</td><td>An ~8% NPL ratio leaves BOP more exposed than private peers if Punjab-scheme or SME borrowers deteriorate; the schemes are only 3% of NPLs today.</td><td>medium</td></tr>
+<tr><td>Dilution optics</td><td>Up to ~24% more shares would mechanically cut EPS/ROE until the capital is deployed; the offset is that issuance above book lifts BVPS, and ~80% of recent rights issues were priced at discounts rather than the PKR 38.20 premium here.</td><td>medium</td></tr>
+<tr><td>Capital-raise slippage</td><td>Any delay past 31 Dec 2026 in the GoPb tranche would revive capital-adequacy and dilution concerns; SBP and SECP approvals are still pending.</td><td>medium</td></tr>
+<tr><td>Disclosure timing</td><td>The +9%/158mn-share run-up before the injection was made public is a governance flag that could weigh on how investors price the state&#x27;s influence.</td><td>low</td></tr>
+<tr><td>Liquidity/float</td><td>Free float is ~42.5%, so index events and foreign flows can move the stock harder than its fundamentals justify; 1-year beta is reported at 2.17.</td><td>medium</td></tr>
+</tbody></table>
+<hr/>
+<h2>7. Falsification: what would prove this wrong</h2>
+<ol>
+<li><strong>A close below PKR 27.31</strong> breaks the 28.55 shelf that has held</li>
+</ol>
+<p>   twice; the next reference is the 27.00-28.00 base, and the model&#x27;s 5% tail</p>
+<p>   (PKR 26.28) becomes the base case.</p>
+<ol>
+<li><strong>A hawkish 26 October MPC</strong> (a hike to 12.5%, or a statement that reopens the tightening</li>
+</ol>
+<p>   cycle) invalidates the &quot;rate peak&quot; assumption behind the mean-reversion leg; the martingale</p>
+<p>   distribution, not the mixture, should then be used.</p>
+<ol>
+<li><strong>Q3-2026 provisions above ~Rs 4bn</strong> or any Punjab-scheme asset-quality disclosure would hit</li>
+</ol>
+<p>   the one part of the bull case that is currently unverifiable from public data.</p>
+<ol>
+<li><strong>A slip in the GoPb tranche past 31 December 2026</strong> would remove the contractual anchor that</li>
+</ol>
+<p>   makes the risk/reward asymmetric.</p>
+<ol>
+<li><strong>An index close below 160,000</strong> puts the political channel in charge; single-stock analysis</li>
+</ol>
+<p>   loses explanatory power and the position should be cut to the conservative size.</p>
+<hr/>
+<h2>8. Method and provenance</h2>
+<ul>
+<li><strong>Price data:</strong> Yahoo Finance daily series for <code>BOP.KA</code>, assembled into</li>
+</ul>
+<p>  <code>data/BOP_KA_daily_2y.json</code> (503 settled sessions, 2024-10-07 to 2026-10-06) and validated</p>
+<p>  against four independent anchors: the PSX data portal&#x27;s 5 Oct 2026 close (28.89, -1.04,</p>
+<p>  -3.48%), invest.pk&#x27;s 8 Sep 2026 OHLC (34.80 / 35.00 / 34.00 / 34.63), stockanalysis.com&#x27;s</p>
+<p>  31 Dec 2025 market capitalisation (PKR 126.15bn implies 38.56 per share) and TradingView&#x27;s</p>
+<p>  all-time-high date (5 Jan 2026, close 43.09 / intraday 44.17). <code>python3 scripts/validate_data.py</code></p>
+<p>  re-runs every anchor and the cross-fetch overlap checks on demand.</p>
+<ul>
+<li><strong>Forecast:</strong> 60,000-path block bootstrap (see <code>psx/forecast.py</code>), seed 20261007, reproducible</li>
+</ul>
+<p>  bit-for-bit: <code>python scripts/run_bop_assessment.py</code>.</p>
+<ul>
+<li><strong>Fundamentals:</strong> H1-2026 results release (28 Aug 2026), the 8 Sep 2026 EOGM materials, PACRA&#x27;s</li>
+</ul>
+<p>  1 Jul 2026 rating action, PSX company announcements and the macro/sector sources footnoted above.</p>
+<ul>
+<li><strong>Framework:</strong> TauricResearch/TradingAgents v0.6.0 (Apache-2.0), vendored under <code>TradingAgents/</code>;</li>
+</ul>
+<p>  the PSX data vendor, configuration and offline analyst engine live in <code>psx/tradingagents_bridge.py</code></p>
+<p>  and <code>psx/agents.py</code>.</p>
+<p>*Generated 2026-10-08 06:11 UTC by</p>
+<p><code>scripts/run_bop_assessment.py</code>. Research output, not investment advice.*</p>
+<footer>Generated by the Stock Insight / TradingAgents PSX pipeline. Research output - not
+investment advice. Sources and dates are listed inline; the raw price snapshot and the full
+forecast JSON accompany this report in <code>reports/</code>.</footer>
+</div></body></html>

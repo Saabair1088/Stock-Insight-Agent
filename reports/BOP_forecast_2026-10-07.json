@@ -1,0 +1,154 @@
+{
+  "symbol": "BOP",
+  "yahoo_symbol": "BOP.KA",
+  "as_of": "2026-10-06",
+  "forecast_for": "2026-11-06",
+  "horizon_sessions": 21,
+  "spot": 29.72,
+  "daily_vol": 0.02064430758534521,
+  "annual_vol": 0.3277182231596866,
+  "prob_up": 0.5433166666666667,
+  "prob_down": 0.45668333333333333,
+  "expected_price": 30.25499805686944,
+  "expected_return": 0.018001280513776585,
+  "quantiles": {
+    "p5": 26.276756391836102,
+    "p10": 27.063724158703625,
+    "p25": 28.40930079307729,
+    "p50": 29.989127191632335,
+    "p75": 31.801918890842593,
+    "p90": 33.80619258448589,
+    "p95": 35.14855438342477
+  },
+  "var_5": -0.11585934147015753,
+  "cvar_5": -0.14634346538157209,
+  "prob_above": {
+    "33.70 (200-DMA / prior support turned resistance)": 0.10571666666666667,
+    "34.46 (Jul-2026 swing close)": 0.07221666666666667,
+    "36.40 (GoPb issue price net of the 5% premium)": 0.025466666666666665,
+    "38.20 (GoPb equity-injection floor)": 0.009133333333333334,
+    "44.17 (all-time high, Jan-2026)": 0.00021666666666666666,
+    "27.00 (May/Jun-2026 base)": 0.90495,
+    "24.26 (52-week low area)": 0.9948833333333333
+  },
+  "regimes": {
+    "martingale": {
+      "quantiles": {
+        "p5": 25.957658131272947,
+        "p10": 26.71507907050095,
+        "p25": 28.047526992299865,
+        "p50": 29.605071568631587,
+        "p75": 31.38753131332749,
+        "p90": 33.351272966227654,
+        "p95": 34.65743151426102
+      },
+      "expected_price": 29.856913458856784,
+      "prob_up": 0.4811,
+      "var_5": -0.12660879276340176,
+      "cvar_5": -0.155792642493298
+    },
+    "mean_reversion": {
+      "quantiles": {
+        "p5": 26.4883530160377,
+        "p10": 27.27478237864496,
+        "p25": 28.60888501353305,
+        "p50": 30.178646531801633,
+        "p75": 32.000321426309235,
+        "p90": 34.01931928773396,
+        "p95": 35.35838282968729
+      },
+      "expected_price": 30.452947355244447,
+      "prob_up": 0.5745666666666667,
+      "var_5": -0.10873866218119632,
+      "cvar_5": -0.13873429316376193
+    },
+    "catalyst": {
+      "quantiles": {
+        "p5": 26.533434150935637,
+        "p10": 27.332930363666627,
+        "p25": 28.688733358163194,
+        "p50": 30.288018575658366,
+        "p75": 32.13601918213798,
+        "p90": 34.124523489711265,
+        "p95": 35.48026341072711
+      },
+      "expected_price": 30.55245885085178,
+      "prob_up": 0.5938,
+      "var_5": -0.10722158996592357,
+      "cvar_5": -0.1381594407034104
+    }
+  },
+  "scenarios": [
+    {
+      "name": "Bull - pre-positioning into the GoPb issue and a clean Q3",
+      "probability": 0.27,
+      "target_range": [
+        32.5,
+        36.5
+      ],
+      "midpoint": 34.4,
+      "return_pct": 0.15746971736204585,
+      "triggers": [
+        "Q3-2026 PAT >= Rs 5.0bn with flat-to-improving provisions",
+        "SBP holds at 11.5% on 26 Oct or signals a peak in the hiking cycle",
+        "KSE-100 reclaims 175,000 and foreign/insurance flows return to banks",
+        "Confirmation that the first GoPb tranche (Rs 15-20bn) is on track for Dec-2026"
+      ]
+    },
+    {
+      "name": "Base - basing between support and the falling 50-DMA",
+      "probability": 0.46,
+      "target_range": [
+        28.0,
+        32.5
+      ],
+      "midpoint": 30.4,
+      "return_pct": 0.02288021534320328,
+      "triggers": [
+        "Q3 PAT in the Rs 4.0-5.0bn range; no negative surprise on NPLs",
+        "MPC holds with a neutral statement; KIBOR stays flat",
+        "KSE-100 range-bound 160,000-172,000 as the political standoff drags on",
+        "28.55 (Oct-2026 low) holds on a weekly close"
+      ]
+    },
+    {
+      "name": "Bear - political risk premium plus a hawkish MPC",
+      "probability": 0.27,
+      "target_range": [
+        24.0,
+        28.0
+      ],
+      "midpoint": 26.6,
+      "return_pct": -0.10497981157469705,
+      "triggers": [
+        "SBP hikes 100bp to 12.5% on 26 Oct or the statement turns explicitly hawkish",
+        "Q3 provisions spike / Punjab-scheme asset-quality noise",
+        "KSE-100 breaks 160,000; long march escalates into a constitutional crisis",
+        "GoPb tranche slips past 31 Dec 2026, reviving dilution and capital concerns"
+      ]
+    }
+  ],
+  "committee": {
+    "scores": {
+      "market": 3.5,
+      "fundamentals": 7.82,
+      "news": 5.45,
+      "sentiment": 4.4
+    },
+    "rating": "Hold",
+    "action": "Hold",
+    "trade_params": {
+      "entry_zone": [
+        28.69,
+        30.31
+      ],
+      "stop": 27.31,
+      "target_1": 34.02,
+      "target_2": 38.2,
+      "risk_reward": 2.06,
+      "size_pct": 4.0,
+      "size_pct_final": 4.1
+    }
+  },
+  "generated_utc": "2026-10-08T06:11:10Z"
+}

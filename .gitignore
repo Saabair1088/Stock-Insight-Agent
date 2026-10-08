@@ -1,0 +1,15 @@
+# The TradingAgents framework dependencies live in a local venv; reconstruct with
+#   python3 -m venv .venv && .venv/bin/pip install -e ./TradingAgents matplotlib
+.venv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# TradingAgents runtime caches (regenerable); memory-log lock files
+data/psx/framework_cache/
+reports/framework/memory/*.lock
+
+# OS noise
+.DS_Store
