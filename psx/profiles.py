@@ -771,7 +771,8 @@ AHCL = Profile(
         "Arab News / Dawn / Tribune coverage of the PIA privatisation, 2025-12-24 and 2025-12-30",
         "stockanalysis.com quote, dividend, history and company pages for PSX:AHCL, 2026-10-08",
         "sarmaaya.pk/stocks/AHCL (52-week range, free float, market cap), 2026-10-08",
-        "Wikipedia / Grokipedia summaries of Arif Habib Corporation's subsidiary structure, 2026",
+        "Arab News, Business Recorder, Express Tribune and Pakistan Today coverage of the PIA sale: Rs 135bn for 75% (Dec 2025), Rs 45bn for the remaining 25% (Apr 2026), PIA Equity Ltd vehicle, Rs 125bn injection plan and Rs 54bn of liabilities (Dec 2025 - May 2026)",
+        "AHCL FY26 annual results and the Rs 1.25 dividend announcement (PSX announcements, 30 Sep 2026)",
     ],
 )
 

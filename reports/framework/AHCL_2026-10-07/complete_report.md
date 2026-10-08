@@ -2,7 +2,7 @@
 
 - Analysis date: 2026-10-07
 - Rating: Hold
-- Generated: 2026-10-08 06:43:32
+- Generated: 2026-10-08 06:44:27
 - TradingAgents 0.6.0: offline, deep psx-deterministic, quick psx-deterministic
 - Analysts: market, sentiment, news, fundamentals; research debate rounds 1, risk debate rounds 1
 - Data vendors: core_stock_apis psx, technical_indicators psx, fundamental_data psx, news_data psx, macro_data psx, prediction_markets psx
@@ -72,7 +72,7 @@ The FY26 results (30 Sep) and the PIA ownership completion dominate the news flo
 | through the window | PIA operational news flow | Fleet serviceability, route restoration and any move toward re-listing are the catalysts that would close the conglomerate discount. |
 
 **Score split.** Macro tape 3.6/10, company and sector newsflow
-6.6/10 (equal-weighted). Supportive: none carried.
+6.6/10 (equal-weighted). Supportive: nothing on the macro tape - the positives for this name sit at company level.
 Hostile: Inflation 10.26% with the PTI standoff live.
 The dominant company-flow positive is
 "FY26 (year to 30 Jun 2026) consolidated profit attributable to shareholders rose 49.5% to Rs 15.53bn (EPS 3.68 on 4.22bn..."

@@ -288,7 +288,7 @@ def news_analyst(profile: Profile, series, f: fc.ForecastResult) -> tuple[str, f
 {event_rows}
 
 **Score split.** Macro tape {macro_score:.1f}/10, company and sector newsflow
-{company_score:.1f}/10 (equal-weighted). Supportive: {macro_pos[0]['headline'] if macro_pos else 'none carried'}.
+{company_score:.1f}/10 (equal-weighted). Supportive: {macro_pos[0]['headline'] if macro_pos else 'nothing on the macro tape - the positives for this name sit at company level'}.
 Hostile: {macro_neg[0]['headline'] if macro_neg else 'none carried'}.
 The dominant company-flow {'positive' if len(company_pos) >= len(company_neg) else 'negative'} is
 "{company_pos[0]['fact'][:120] if company_pos else company_neg[0]['fact'][:120] if company_neg else 'n/a'}..."

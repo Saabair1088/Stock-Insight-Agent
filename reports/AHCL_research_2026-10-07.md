@@ -154,7 +154,7 @@ The FY26 results (30 Sep) and the PIA ownership completion dominate the news flo
 | through the window | PIA operational news flow | Fleet serviceability, route restoration and any move toward re-listing are the catalysts that would close the conglomerate discount. |
 
 **Score split.** Macro tape 3.6/10, company and sector newsflow
-6.6/10 (equal-weighted). Supportive: none carried.
+6.6/10 (equal-weighted). Supportive: nothing on the macro tape - the positives for this name sit at company level.
 Hostile: Inflation 10.26% with the PTI standoff live.
 The dominant company-flow positive is
 "FY26 (year to 30 Jun 2026) consolidated profit attributable to shareholders rose 49.5% to Rs 15.53bn (EPS 3.68 on 4.22bn..."
@@ -380,7 +380,8 @@ Probability-weighted value: **PKR 14.35** (-7.3% versus spot).
 - Arab News / Dawn / Tribune coverage of the PIA privatisation, 2025-12-24 and 2025-12-30
 - stockanalysis.com quote, dividend, history and company pages for PSX:AHCL, 2026-10-08
 - sarmaaya.pk/stocks/AHCL (52-week range, free float, market cap), 2026-10-08
-- Wikipedia / Grokipedia summaries of Arif Habib Corporation's subsidiary structure, 2026
+- Arab News, Business Recorder, Express Tribune and Pakistan Today coverage of the PIA sale: Rs 135bn for 75% (Dec 2025), Rs 45bn for the remaining 25% (Apr 2026), PIA Equity Ltd vehicle, Rs 125bn injection plan and Rs 54bn of liabilities (Dec 2025 - May 2026)
+- AHCL FY26 annual results and the Rs 1.25 dividend announcement (PSX announcements, 30 Sep 2026)
 
 ---
 
