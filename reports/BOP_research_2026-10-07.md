@@ -472,5 +472,5 @@ Position sizes assume a diversified book and a 12% volatility budget.*
   the PSX data vendor, configuration and offline analyst engine live in `psx/tradingagents_bridge.py`
   and `psx/agents.py`.
 
-*Generated 2026-10-08 06:11 UTC by
+*Generated 2026-10-08 06:45 UTC by
 `scripts/run_bop_assessment.py`. Research output, not investment advice.*

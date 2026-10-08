@@ -37,7 +37,7 @@ def _scale(v, lo, hi, a, b):
 def svg_price_fan(series, f: fc.ForecastResult, sessions: int = 250, width: int = 960, height: int = 430,
                   *, floor: float = 38.20, floor_label: str = "GoPb issue floor 38.20",
                   book: float = 31.83, book_label: str = "Book value 31.83",
-                  title: str | None = None) -> str:
+                  hi_override: float | None = None, title: str | None = None) -> str:
     """Price history plus the forecast fan for the next ``horizon`` sessions.
 
     The reference marks default to the Bank of Punjab's issue floor and audited
@@ -49,7 +49,14 @@ def svg_price_fan(series, f: fc.ForecastResult, sessions: int = 250, width: int 
     horizon = f.horizon_sessions
     bands = f.path_bands
     lo = min(min(closes), min(b["p10"] for b in bands.values())) * 0.98
-    hi = max(max(closes), max(b["p90"] for b in bands.values()), floor) * 1.02
+    # ``hi_override`` caps the axis when a reference level (e.g. book value) sits
+    # far above anything the price or the fan touches; the data always fits.
+    required = max(max(closes), max(b["p90"] for b in bands.values()))
+    if hi_override:
+        # explicit cap: reference marks above it are simply not drawn
+        hi = max(required, hi_override) * 1.02
+    else:
+        hi = max(required, floor) * 1.02
     pad_l, pad_r, pad_t, pad_b = 62, 118, 26, 40
     w, h = width - pad_l - pad_r, height - pad_t - pad_b
     total_pts = len(closes) - 1 + horizon
@@ -83,6 +90,8 @@ def svg_price_fan(series, f: fc.ForecastResult, sessions: int = 250, width: int 
     for level, label, color in ((floor, floor_label, AMBER),
                                 (book, book_label, MUTED),
                                 (spot, f"spot {spot:.2f}", GREEN)):
+        if not (lo <= level <= hi):
+            continue  # reference level is off this chart's scale
         y = y_at(level)
         parts.append(f'<line x1="{pad_l}" y1="{y:.1f}" x2="{pad_l + w}" y2="{y:.1f}" stroke="{color}" '
                      f'stroke-width="1" stroke-dasharray="3 5" opacity="0.75"/>')

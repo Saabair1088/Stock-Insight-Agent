@@ -344,6 +344,7 @@ def write_outputs(profile: Profile, series, ohlcv, f: fc.ForecastResult, committ
     svg_price = rp.svg_price_fan(
         series, f, sessions=min(len(series.closes), 250),
         floor=floor, floor_label=floor_label,
+        hi_override=max(f.quantiles["p95"] * 1.15, f.spot * 1.35),
         book=profile.anchor("support", floor), book_label="support "
         f"{profile.anchor('support', floor):,.2f}",
         title=f"{profile.symbol} daily closes (PKR) - last {min(len(series.closes), 250)} sessions "

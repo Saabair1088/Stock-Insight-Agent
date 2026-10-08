@@ -2,7 +2,7 @@
 
 - Analysis date: 2026-10-07
 - Rating: Hold
-- Generated: 2026-10-08 06:44:16
+- Generated: 2026-10-08 06:45:14
 - TradingAgents 0.6.0: offline, deep psx-deterministic, quick psx-deterministic
 - Analysts: market, sentiment, news, fundamentals; research debate rounds 1, risk debate rounds 1
 - Data vendors: core_stock_apis psx, technical_indicators psx, fundamental_data psx, news_data psx, macro_data psx, prediction_markets psx
